@@ -1,6 +1,8 @@
 # Pull base image.
 FROM jlesage/baseimage-gui:alpine-3.8
 
+USER root
+
 # Install xterm.
 RUN add-pkg xterm
 
